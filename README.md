@@ -6,7 +6,8 @@ cd fastapi-env
 .\Scripts\activate
 5. Install the Lazop Python SDK.by cmd run in the file directory :
 pip install lazop
-
+6. main.py , enviroment terminal run: uvicorn main:app --reload : reload auto when we change the file
+7. 
 # lazop_fastapi
 
 download sdk https://pypi.org/project/lazop-sdk/ or from open.lazada.com
