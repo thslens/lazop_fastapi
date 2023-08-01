@@ -6,9 +6,10 @@ cd fastapi-env
 .\Scripts\activate
 5. Install the Lazop Python SDK.by cmd run in the virtual environment :
 pip install lazop-sdk
-6. main.py , enviroment terminal run: uvicorn main:app --reload : reload auto when we change the file
-7. uvicorn test_token:app --reload
-8. uvicorn create_token:app --reload
+6. create a file requirements.txt and run pip install -r requirements.txt
+7. main.py , enviroment terminal run: uvicorn main:app --reload : reload auto when we change the file
+8. uvicorn test_token:app --reload
+9. uvicorn create_token:app --reload
 # lazop_fastapi
 
 download sdk https://pypi.org/project/lazop-sdk/ or from open.lazada.com
