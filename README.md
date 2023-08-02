@@ -4,8 +4,8 @@
 4. Activate the virtual environment.by cmd run :
 cd fastapi-env
 .\Scripts\activate
-5. Install the Lazop Python SDK.by cmd run in the virtual environment :
-pip install lazop-sdk
+5. Install by cmd run in the virtual environment :
+pip install lazop-sdk , pip install fastapi , pip install uvicorn[standard] ,
 6. create a file requirements.txt and run : pip install -r requirements.txt
 7. main.py , enviroment terminal run: uvicorn main:app --reload : reload auto when we change the file
 8. uvicorn test_token:app --reload
